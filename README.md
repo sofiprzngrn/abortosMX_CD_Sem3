@@ -1,5 +1,6 @@
-# Proyecto de Ciencia de Datos Abortify
-Proyecto de ciencia de datos sobre abortos en México
+# Proyecto de Ciencia de Datos "Abortos en México"
+Proyecto de ciencia de datos sobre abortos en México.
+Este proyecto es para la materia de Ciencia de datos de la carrera de Actuaría en la IBERO.
 
 ## Instalación
 
@@ -17,4 +18,11 @@ import pandas as pd
 ```
 
 ## Contributing
-Este proyecto está hecho por Sofía Pereznegrón, cualquier comentario o sugerencia es biembenida!
+Este proyecto está hecho por Sofía Pereznegrón, cualquier comentario o sugerencia es bienvenida!
+
+
+
+## Base consultada en:
+https://datos.cdmx.gob.mx/explore/dataset/interrupcion-legal-del-embarazo/table/?refine.clues_hospital=DFSSA003932
+
+Los datos fueron adquiridos de la página de datos abiertos de la Ciudad de México.
