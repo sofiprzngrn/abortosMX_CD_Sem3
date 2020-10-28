@@ -1,1 +1,62 @@
+Diccionario de datos
+
+'año': Año en que se realizó el procedimiento.
+'mes': Mes en que se realizó el procedimiento.
+'clues_hospital': Clave Única de Establecimientos de Salud (CLUES). y corresponden a los hostitales mencionados a su derecha:
+  1. DFSSA000065  -> Hospital Materno Infantil Dr. Nicolás M. Cedillo Soriano    
+  2. DFSSA000596  ->  HOSPITAL MATERNO INFANTIL CUAJIMALPA
+  3. DFSSA000712  ->  Centro de Salud T-III Cuajimalpa  
+  4. DFSSA000852  ->  HOSPITAL MATERNO INFANTIL CUAUTEPEC
+  5. DFSSA000864  ->  HOSPITAL GENERAL TICOMÁN
+  6. DFSSA002066  ->  Hospital General Milpa Alta
+  7. DFSSA002491  ->  HOSPITAL MATERNO INFANTIL TLÁHUAC 
+  8. DFSSA002993  ->  HOSPITAL PEDIÁTRICO XOCHIMILCO
+  9. DFSSA003640  ->  Centro de Salud T-III México España
+  10. DFSSA003705  ->  HOSPITAL MATERNO INFANTIL INGUARÁN
+  11. DFSSA003915  ->  C.S.T-III DR. JUAN DUQUE DE ESTRADA
+  12. DFSSA003932  ->  Centro de Salud T-III Beatriz Velazco de Alemán
+  13. DFSSA004270  ->  CLÍNICA DE ESPECIALIDADES SANTA CATARINA (Iztapalapa) CLÍNICA COMUNITARIA SANTA CATARINA
+  14. DFSSA017886  ->  Hospital General Dr. Enrique Cabrera
+  15. DFSSA018166  ->  Hospital General Ajusco Medio Dra. Obdulia Rodríguez Rodríguez
+
+'fingreso': Fecha de Interrupción Legal del Embarazo
+'autoref': Especificar si la paciente es referida de otra unidad o acude directamente
+'edocivil_descripcion': Estado Civil
+'edad': Edad cumplida en años
+'desc_derechohab': Especificar la institución que otorga la derechohabiencia
+'nivel_edu': Último nivel escolar acreditado
+'ocupacion': Ocupación
+'religion': Religión
+'parentesco': Parentesco del responsable con la paciente solamente para menores de edad obligatorio
+'entidad': Entidad de residencia
+'alc_o_municipio': Alcaldía o municipio de residencia
+'menarca': Edad de la primera menstruación
+'fsexual': Edad de inicio de vida sexual activa
+'fmenstrua': Fecha de la última menstruación
+'sememb': Semanas de embarazo por fecha de última menstruación
+'nhijos': Número de hijos
+'gesta': Número de embarazos (Incluyendo abortos)
+'naborto': Número de abortos (Sin contar ILE)
+'npartos': Número de nacimientos por vía vaginal
+'ncesarea': Número de cesáreas
+'nile': Número de Interrupciones Legales del Embarazo previas al procedimiento actual
+'consejeria': Especificar si la paciente recibió consejería sobre la ILE
+'anticonceptivo': Especificar si la paciente utiliza de forma habitual método anticonceptivo
+'c_fecha': Fecha de primera valoración o atención
+'c_num': Número de consultas previas al ILE
+'motiles': Motivo por el cual se desea la interrupción del embarazo
+'h_fingreso': En caso de hospitalización, fecha de ingreso
+'h_fegreso': En caso de hospitalización, fecha de egreso
+'desc_servicio': Servicio en el que se otorgó la interrupción
+'p_semgest': Semanas de gestación por USG
+'p_diasgesta': Días de gestación por USG
+'p_consent': Se requisitó y firmo el consentimiento informado
+'s_complica': Se presentaron complicaciones por el procedimiento
+'c_dolor': Se presentó dolor posterior al procedimiento
+'tanalgesico': Se prescribe medicación analgeésica
+'cconsejo': 
+'panticoncep': Método anticonceptivo proporcionado post evento obstétrico
+'fecha_cierre': Fecha de cierre del procedimiento de ILE
+'resultado_ile': Resultado del procedimiento de ILE
+'procile': 
 
