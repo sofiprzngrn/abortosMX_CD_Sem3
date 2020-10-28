@@ -1,0 +1,42 @@
+Variable,Descripción,Tipo de dato
+año,Año en que se realizó el procedimiento,numérico 
+mes,Mes en que se realizó el procedimiento,texto
+clues_hospital,Clave Única de Establecimientos de Salud (CLUES),texto 
+fingreso,Fecha de Interrupción Legal del Embarazo,fecha
+autoref,Especificar si la paciente es referida de otra unidad o acude directamente,texto
+edocivil_descripcion,Estado civil,texto 
+edad,Edad cumplida en años,numérico
+desc_derechohab,Especificar la institución que otorga la derechohabiencia,texto 
+nivel_edu,Último nivel escolar acreditado,texto 
+ocupacion,Ocupación,texto 
+religion,Religión,texto 
+parentesco,Parentesco del responsable con la paciente solamente para menores de edad obligatorio,texto 
+entidad,Entidad de residencia,texto 
+alc_o_municipio,Alcaldía o municipio de residencia,texto 
+menarca,Edad de la primera menstruación,numérico
+fsexual,Edad de inicio de vida sexual activa,numérico
+fmenstrua,Fecha de la última menstruación,fecha
+sememb,Semanas de embarazo por fecha de última menstruación,numérico
+nhijos,Número de hijos,numérico
+gesta,Número de embarazos (Incluyendo abortos),numérico
+naborto,Número de abortos (Sin contar ILE),numérico
+npartos,Número de nacimientos por vía vaginal,numérico
+ncesarea,Número de cesáreas,numérico
+nile,Número de Interrupciones Legales del Embarazo previas al procedimiento actual,numérico
+consejeria,Especificar si la paciente recibió consejería sobre la ILE,texto 
+anticonceptivo,Especificar si la paciente utiliza de forma habitual método anticonceptivo,texto 
+c_fecha,Fecha de primera valoración o atención,fecha
+c_num,Número de consultas previas al ILE,numérico
+motiles,Motivo por el cual se desea la interrupción del embarazo,texto 
+h_fingreso ,"En caso de hospitalización, fecha de ingreso",fecha
+h_fegreso ,"En caso de hospitalización, fecha de egreso",fecha
+desc_servicio,Servicio en el que se otorgó la interrupción,texto 
+p_semgest,Semanas de gestación por USG,numérico
+p_diasgesta,Días de gestación por USG,numérico
+p_consent,Se requisitó y firmo el consentimiento informado,texto 
+s_complica,Se presentaron complicaciones por el procedimiento,texto 
+c_dolor,Se presentó dolor posterior al procedimiento,texto 
+tanalgesico,Se prescribe medicación analgeésica,texto 
+panticoncep,Método anticonceptivo proporcionado post evento obstétrico,texto 
+fecha_cierre,Fecha de cierre del procedimiento de ILE,fecha
+resultado_ile,Resultado del procedimiento de ILE,texto 
