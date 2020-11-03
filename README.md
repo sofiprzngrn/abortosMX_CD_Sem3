@@ -29,3 +29,6 @@ https://datos.cdmx.gob.mx/explore/dataset/interrupcion-legal-del-embarazo/table/
 https://data.opendatasoft.com/explore/dataset/interrupcion-legal-del-embarazo%40lab-cdmx/information/?refine.clues_hospital=DFSSA003932
 
 Los datos fueron adquiridos de la página de datos abiertos de la Ciudad de México.
+## Datos sobre hospitales consultados en:
+http://www.amv.org.mx/asociacion-mexicana-de-vacunologia-directorio.php?estado=&_pagi_pg=244
+https://www.gob.mx/cms/uploads/attachment/file/545458/df.pdf
