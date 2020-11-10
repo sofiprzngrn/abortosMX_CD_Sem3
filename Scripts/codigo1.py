@@ -13,6 +13,7 @@ datos = pd.read_json(response.content)
 
 #datos = pd.read_csv('interrupcion-legal-del-embarazo.csv', low_memory=False)
 
+#commit de prueba VIM es el mejor IDE
 
 print(datos.nunique())
 print(datos.describe())
