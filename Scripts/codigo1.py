@@ -2,7 +2,17 @@
 import pandas as pd
 import seaborn as sns
 
-datos = pd.read_csv('interrupcion-legal-del-embarazo.csv', low_memory=False) 
+import requests # http requests are the standard way of communicating with an API
+import json #json is the normal way an API will respond
+
+url = 'https://datos.cdmx.gob.mx/api/v2/catalog/datasets/interrupcion-legal-del-embarazo/exports/json'
+
+response= requests.get(url)
+
+datos = pd.read_json(response.content)
+
+#datos = pd.read_csv('interrupcion-legal-del-embarazo.csv', low_memory=False)
+
 
 print(datos.nunique())
 print(datos.describe())
