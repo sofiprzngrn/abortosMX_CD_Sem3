@@ -39,8 +39,12 @@ pip install seaborn
 
 
 ## Uso
-Después de instalar las dependencias se puede correr el programa principal **Scripts/codigo1.py**.
-Es necesario estar en la carpeta del proyecto antes de 
+Después de instalar las dependencias se puede correr el primer programa. 
+Es necesario estar en la carpeta del proyecto antes de ejecutar los programas
+Primer programa **Scripts/preprocesar_y_limpiar.py**.
+El primer programa limpia el dataset, es importante ejecutarlo primero.
+Segundo programa **Scripts/generar_graficas.py**.
+El segundo programa crea las graficas a partir de los datos procesados
 ```python
 python3 preprocesar_y_limpiar.py
 python3 generar_graficas.py
