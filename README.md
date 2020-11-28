@@ -5,8 +5,10 @@ Este proyecto es para la materia de Ciencia de datos de la carrera de Actuaría 
 
 ## Estructura
 - Scripts 
-  - Código1.py
-    > Expliación del código 1
+  - preprocesar_y_limpar.py
+    > En este archivo se lee el dataset y se eliminan valores incorrectos y extremos.
+  - generar_graficas.py
+    > Con este archivo se generan las gráficas en seaborn
   - Interrupcion-legal-del-embarazo.csv
     > Archivo CSV sin procesar
   - listo.csv
