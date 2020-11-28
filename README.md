@@ -18,6 +18,8 @@ Este proyecto es para la materia de Ciencia de datos de la carrera de Actuaría 
     > Diccionario con la explicación de cada variable original 
   -Documentación1.txt
     > Diccionario con las variables nuevas y procesadas
+- Graficas
+  > En este folder se encuentran las gráficas resultantes del análisis
 - Motivación
   > Documento detallando el propósito del proyecto
 
