@@ -2,28 +2,53 @@
 Proyecto de ciencia de datos sobre abortos en México.
 Este proyecto es para la materia de Ciencia de datos de la carrera de Actuaría en la IBERO.
 
-## Instalación
 
-Utilizar librería de pandas.
+## Estructura
+- Scripts 
+  - Código1.py
+    > Expliación del código 1
+  - Interrupcion-legal-del-embarazo.csv
+    > Archivo CSV sin procesar
+  - listo.csv
+    > Archivo CSV después de limpiar y procesar
+- Documentación
+  -Diccionario de datos ILE.csv
+    > Diccionario con la explicación de cada variable original 
+  -Documentación1.txt
+    > Diccionario con las variables nuevas y procesadas
+- Motivación
+  > Documento detallando el propósito del proyecto
+
+
+## Dependencias
+Se utilizaron las siguientes librerías para el manejo de datos y visualización:
+
+Pandas
+Seaborn
+
+Para su instalación:
 
 ```bash
 pip install pandas
 ```
+```bash
+pip install seaborn
+```
 
-#### Usos
+
+## Uso
 
 ```python
-import pandas as pd
-
+python3 codigo1.py
 ```
 
 ## Contributing
 Este proyecto está hecho por Sofía Pereznegrón, cualquier comentario o sugerencia es bienvenida!
 
-
+#Bibliografía
 
 ## Base consultada en:
-https://datos.cdmx.gob.mx/explore/dataset/interrupcion-legal-del-embarazo/table/?refine.clues_hospital=DFSSA003932
+https://datos.cdmx.gob.mx/explore/dataset/interrupcion-legal-del-embarazo/table/
 
 ## Diccionario consultado en:
 https://data.opendatasoft.com/explore/dataset/interrupcion-legal-del-embarazo%40lab-cdmx/information/?refine.clues_hospital=DFSSA003932
