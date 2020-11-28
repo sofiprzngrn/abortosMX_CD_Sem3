@@ -41,12 +41,44 @@ datos = datos.drop('resultado_ile', axis=1)
 datos = datos[(datos.menarca != 1218) & (datos.menarca != 147)& (datos.menarca != 123) & (datos.menarca != 121) & (datos.menarca != 113) & (datos.menarca != 99) & (datos.menarca != 88) & (datos.menarca != 58)]
 datos = datos[(datos.fsexual != 128) & (datos.fsexual != 55)]
 datos['tot_abortos'] = datos['naborto'] + datos['nile']
+#datos.assign(met_anticonceptivo = datos['anticonceptivo'])
 
 datos['c_fecha'] =  pd.to_datetime(datos['c_fecha'], format='%Y/%m/%d')
 datos['h_fingreso'] =  pd.to_datetime(datos['h_fingreso'], format='%Y/%m/%d')
 datos['h_fegreso'] =  pd.to_datetime(datos['h_fegreso'], format='%Y/%m/%d')
 datos['fmenstrua'] =  pd.to_datetime(datos['fmenstrua'], format='%Y/%m/%d')
 datos['fingreso'] =  pd.to_datetime(datos['fingreso'], format='%Y/%m/%d')
+
+datos = datos.replace(to_replace='DIU + PARCHE',value='DIU')
+datos = datos.replace(to_replace='DIU + IMPLANTE SUBDERMINCO',value='DIU')
+datos = datos.replace(to_replace='DIU + IMPLANTE',value='DIU')
+
+datos = datos.replace(to_replace='INYECCION + PARCHE',value='INYECCION')
+datos = datos.replace(to_replace='INYECCION + DIU',value='INYECCION')
+datos = datos.replace(to_replace='INYECCION + LIGADURA DE TROMPAS',value='INYECCION')
+
+datos = datos.replace(to_replace='IMPLANTE SUBDERMICO + PARCHE',value='IMPLANTE SUBDERMICO')
+
+datos = datos.replace(to_replace='CONDON + PASTILLA DE EMERGENCIA + INYECCION',value='CONDON + OTRO METODO')
+datos = datos.replace(to_replace='CONDON + PASTILLA DE EMERGENCIA + IMPLANTE',value='CONDON + OTRO METODO')
+datos = datos.replace(to_replace='CONDON + PASTILLA DE EMERGENCIA + DIU',value='CONDON + OTRO METODO')
+datos = datos.replace(to_replace='CONDON + PASTILLA DE EMERGENCIA',value='CONDON + OTRO METODO')
+datos = datos.replace(to_replace='CONDON + PASTILLA ANTICONCEPTIVA',value='CONDON + OTRO METODO')
+#datos = datos.replace(to_replace='CONDON + PARCHE',value='CONDON + OTRO METODO')
+datos = datos.replace(to_replace='CONDON + INYECCION',value='CONDON + OTRO METODO')
+datos = datos.replace(to_replace='CONDON + IMPLANTE SUBDERMICO',value='CONDON + OTRO METODO')
+datos = datos.replace(to_replace='CONDON + IMPLANTE',value='CONDON + OTRO METODO')
+datos = datos.replace(to_replace='CONDON + DIU',value='CONDON + OTRO METODO')
+datos = datos.replace(to_replace='CONDON + IMPLANTE',value='CONDON + OTRO METODO')
+datos = datos.replace(to_replace='CONDON + LIGADURA DE TROMPAS',value='CONDON + OTRO METODO')
+
+datos = datos.replace(to_replace='PASTILLA DE EMERGENCIA + PARCHES',value='PASTILLA DE EMERGENCIA')
+datos = datos.replace(to_replace='PASTILLA DE EMERGENCIA + INYECCION',value='PASTILLA DE EMERGENCIA')
+
+datos = datos.replace(to_replace='LIGADURA DE TROMPAS',value='OTRO')
+datos = datos.replace(to_replace='VASECTOMIA',value='OTRO')
+datos = datos.replace(to_replace='ANILLO VAGINAL',value='OTRO')
+
 
 datos = datos.replace(to_replace='DIVORCIADA',value='SEPARADA')
 datos = datos.replace(to_replace='NINGU0',value='NINGUNO')
