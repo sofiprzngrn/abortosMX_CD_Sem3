@@ -21,9 +21,8 @@ import pandas as pd
 Este proyecto está hecho por Sofía Pereznegrón, cualquier comentario o sugerencia es bienvenida!
 
 
-
 ## Base consultada en:
-https://datos.cdmx.gob.mx/explore/dataset/interrupcion-legal-del-embarazo/table/?refine.clues_hospital=DFSSA003932
+https://datos.cdmx.gob.mx/explore/dataset/interrupcion-legal-del-embarazo/table/
 
 ## Diccionario consultado en:
 https://data.opendatasoft.com/explore/dataset/interrupcion-legal-del-embarazo%40lab-cdmx/information/?refine.clues_hospital=DFSSA003932
