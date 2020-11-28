@@ -21,9 +21,12 @@ Este proyecto es para la materia de Ciencia de datos de la carrera de Actuaría 
 
 
 ## Dependencias
+Se utilizaron las siguientes librerías para el manejo de datos y visualización:
 
 Pandas
 Seaborn
+
+Para su instalación:
 
 ```bash
 pip install pandas
@@ -33,11 +36,10 @@ pip install seaborn
 ```
 
 
-#### Usos
+## Uso
 
 ```python
-import pandas as pd
-
+python3 codigo1.py
 ```
 
 ## Contributing
