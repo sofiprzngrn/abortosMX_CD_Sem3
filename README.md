@@ -23,10 +23,10 @@ Este proyecto es para la materia de Ciencia de datos de la carrera de Actuaría 
 ## Dependencias
 Se utilizaron las siguientes librerías para el manejo de datos y visualización:
 
-Pandas
-Seaborn
+- Pandas
+- Seaborn
 
-Para su instalación:
+Se instalan de la siguiente manera:
 
 ```bash
 pip install pandas
@@ -37,7 +37,8 @@ pip install seaborn
 
 
 ## Uso
-
+Después de instalar las dependencias se puede correr el programa principal **Scripts/codigo1.py**.
+Es necesario estar en la carpeta del proyecto antes de 
 ```python
 python3 codigo1.py
 ```
@@ -45,7 +46,7 @@ python3 codigo1.py
 ## Contributing
 Este proyecto está hecho por Sofía Pereznegrón, cualquier comentario o sugerencia es bienvenida!
 
-#Bibliografía
+## Bibliografía
 
 ## Base consultada en:
 https://datos.cdmx.gob.mx/explore/dataset/interrupcion-legal-del-embarazo/table/
