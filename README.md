@@ -42,7 +42,8 @@ pip install seaborn
 Después de instalar las dependencias se puede correr el programa principal **Scripts/codigo1.py**.
 Es necesario estar en la carpeta del proyecto antes de 
 ```python
-python3 codigo1.py
+python3 preprocesar_y_limpiar.py
+python3 generar_graficas.py
 ```
 
 ## Contributing
