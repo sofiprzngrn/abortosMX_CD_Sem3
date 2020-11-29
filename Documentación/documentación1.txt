@@ -1,4 +1,5 @@
-Diccionario de datos
+Diccionario de datos:
+Estas son las variables que se registran en el diccionarios de la base de datos. Aquí a parte se encuentran la nuevas variables de la base 'listo.csv'.
 
 'año': Año en que se realizó el procedimiento.
 'mes': Mes en que se realizó el procedimiento.
@@ -54,9 +55,10 @@ Diccionario de datos
 's_complica': Se presentaron complicaciones por el procedimiento
 'c_dolor': Se presentó dolor posterior al procedimiento
 'tanalgesico': Se prescribe medicación analgeésica
-'cconsejo': 
+'cconsejo': Recibió consejería
 'panticoncep': Método anticonceptivo proporcionado post evento obstétrico
 'fecha_cierre': Fecha de cierre del procedimiento de ILE
 'resultado_ile': Resultado del procedimiento de ILE
-'procile': 
+'procile': tipo de procedimiento de ILE
+'tot_abortos': suma de las columnas 'nile' + 'nabortos'
 
