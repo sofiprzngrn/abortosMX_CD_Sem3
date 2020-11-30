@@ -1,6 +1,6 @@
 # Proyecto de Ciencia de Datos "Abortos en México"
 Proyecto de ciencia de datos sobre abortos en la Ciudad de México.
-Este proyecto es para la materia de Ciencia de datos de la carrera de Actuaría en la IBERO.
+Este proyecto es para la materia de Ciencia de datos de la carrera de Actuaría en la IBERO. Se utilizó Python para hacer la limpieza del data set y la librería de Seaborn para graficar, de igualmanera se utilizó la plataforma de Tableau para visualizar los datos.
 Si desea ver el reporte de este proyecto, este se encuentra en la carpeta de documentación, lo podrá encontrar con el nombre de Abortos_CDMX_Reporte_Final.pdf
 
 ## Estructura
@@ -75,18 +75,25 @@ Este proyecto está hecho por Sofía Pereznegrón, cualquier comentario o sugere
 ## Referencias bibliográficas
 Documentación de Pandas
 https://pandas.pydata.org/docs/user_guide/index.html#user-guide
+
 Documentación de Seaborn
 https://seaborn.pydata.org/tutorial.html
+
 Documentacion de Matplotlib
 https://matplotlib.org/
+
+Documentación de Tableau
+https://help.tableau.com/current/pro/desktop/en-us/gettingstarted_overview.htm
+
 
 ## Base consultada en:
 https://datos.cdmx.gob.mx/explore/dataset/interrupcion-legal-del-embarazo/table/
 
+Los datos fueron adquiridos de la página de datos abiertos de la Ciudad de México.
+
 ## Diccionario consultado en:
 https://data.opendatasoft.com/explore/dataset/interrupcion-legal-del-embarazo%40lab-cdmx/information/?refine.clues_hospital=DFSSA003932
 
-Los datos fueron adquiridos de la página de datos abiertos de la Ciudad de México.
 ## Datos sobre hospitales consultados en:
 http://www.amv.org.mx/asociacion-mexicana-de-vacunologia-directorio.php?estado=&_pagi_pg=244
 https://www.gob.mx/cms/uploads/attachment/file/545458/df.pdf
