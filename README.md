@@ -1,6 +1,8 @@
 # Proyecto de Ciencia de Datos "Abortos en México"
 Proyecto de ciencia de datos sobre abortos en la Ciudad de México.
-Este proyecto es para la materia de Ciencia de datos de la carrera de Actuaría en la IBERO. Se utilizó Python para hacer la limpieza del data set y la librería de Seaborn para graficar, de igualmanera se utilizó la plataforma de Tableau para visualizar los datos.
+Este proyecto es para la materia de Ciencia de datos de la carrera de Actuaría en la IBERO. 
+Se utilizó Python para hacer la limpieza del data set y la librería de Seaborn para graficar, de igualmanera se utilizó la plataforma de Tableau para visualizar los datos.
+
 Si desea ver el reporte de este proyecto, este se encuentra en la carpeta de documentación, lo podrá encontrar con el nombre de Abortos_CDMX_Reporte_Final.pdf
 
 ## Estructura
@@ -17,18 +19,18 @@ Si desea ver el reporte de este proyecto, este se encuentra en la carpeta de doc
   - Abortos_CDMX_Reporte_Final.pdf
     > Documento que recoge la esencia del proyecto, resultados y conclusiones finales.
   - Diccionario de datos ILE.csv
-    > Diccionario con la explicación de cada variable original 
+    > Diccionario con la explicación de cada variable original.
   - Documentación1.txt
-    > Diccionario con las variables nuevas y procesadas
+    > Diccionario con las variables nuevas y procesadas.
 - Graficas
-  > En este folder se encuentran las gráficas resultantes del análisis
+  > En este folder se encuentran las gráficas resultantes del análisis.
 - Motivación
-  > Documento detallando el propósito del proyecto
+  > Documento detallando el propósito del proyecto.
 
 ## Lenguaje de programación
 - python 3.8.3
 
-Pera información sobre como instalarlo visite:
+Para información sobre como instalarlo visite:
 https://realpython.com/installing-python/
 
 ## Dependencias
@@ -59,11 +61,10 @@ Después de instalar las dependencias se puede correr el primer programa.
 Es necesario estar en la carpeta del proyecto antes de ejecutar los programas.
 
 Primer programa **Scripts/preprocesar_y_limpiar.py**.
-El primer programa limpia el dataset, es importante ejecutarlo primero.
-Este programa genera automáticamente el archivo 'listo.csv' que se guarda en la misma carpeta en donde se corre.
+El primer programa limpia el dataset y automáticamente genera el archivo 'listo.csv' que se guarda en la misma carpeta en donde se corre. Es importante ejecutarlo primero.
 
 Segundo programa **Scripts/generar_graficas.py**.
-El segundo programa crea las graficas a partir de los datos procesados
+El segundo programa crea las graficas a partir de los datos procesados.
 ```python
 python3 preprocesar_y_limpiar.py
 python3 generar_graficas.py
@@ -79,7 +80,7 @@ https://pandas.pydata.org/docs/user_guide/index.html#user-guide
 Documentación de Seaborn
 https://seaborn.pydata.org/tutorial.html
 
-Documentacion de Matplotlib
+Documentación de Matplotlib
 https://matplotlib.org/
 
 Documentación de Tableau
